@@ -1,0 +1,19 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "env": {
+        "browser": true
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "rules": {
+        "prefer-const": "warn",
+        "camelcase": "warn" ,
+        "quotes": [1, "single"],
+        "spaced-comment": "warn",
+        "semi": "error",
+        "space-infix-ops": "warn"
+    }
+}
